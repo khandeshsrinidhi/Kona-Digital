@@ -131,7 +131,7 @@ a {
     }
 
     50% {
-        transform: scale(0.5);
+        transform: scale(0.1);
     }
 
     100% {
@@ -148,7 +148,7 @@ a {
 
 @keyframes zoomInOut2 {
     0% {
-        transform: scale(0.5);
+        transform: scale(0.1);
     }
 
     50% {
@@ -156,7 +156,7 @@ a {
     }
 
     100% {
-        transform: scale(0.5);
+        transform: scale(0.1);
     }
 }
 
