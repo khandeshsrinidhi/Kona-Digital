@@ -633,51 +633,184 @@ a {
 /* ....................................media queries.............................................  */
 
 /* media query 1 */
-@media only screen and (max-width: 700px) {
-    * {
+/* @media (max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    #navbar img {
+        padding-left: 0;
+        width: 80%; /* Adjust width as needed */
+    
+  
+/* @media (max-width: 600px) {
+    *{
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
     }
-
-    html,
-    body {
-        margin: 0px;
-        padding: 0px;
-        width: 10%;
-        /* overflow-x: hidden; */
-
-    }
+    
     #navbar {
-    margin: 0px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    gap: 5rem;
-    padding: 0px;
-    box-shadow: 0px 0px 0.5px 0px;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
     }
 
-    #navbar img{
-        width: 28rem;
-    }
-    #navbar-types{
-        padding: 30px 30px;
-    }
-    #navbar-types button{
-        padding: 10px 20px;
+    #navbar img {
+        padding-left: 0;
+        width: 50%;
     }
 
-    
-
-    /* #navbar {
-        margin: 0px 32px;
-        padding: 0px;
-    } */
-
-    
+    #navbar-types {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 10px 0;
+    }
 
     #meet-us {
-        text-align: center;
+        margin: 20px;
     }
-   
-}
+
+    #meet-us-main h1 {
+        font-size: 40px;
+    }
+
+    #meet-us-main p {
+        font-size: 16px;
+    }
+
+    #service-container {
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    #service-1, #service-2, #service-3 {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    #industry-solutions {
+        padding: 5rem 2rem;
+    }
+
+    #industry-solutions h2 {
+        font-size: 30px;
+    }
+
+    #industry-solutions p {
+        font-size: 24px;
+    }
+
+    #frowbox-container {
+        margin: 10px 2rem;
+    }
+
+    .frow {
+        padding: 20px;
+    }
+
+    #Trusted-by-millions {
+        padding: 20px 0 50px;
+    }
+
+    #trusted-text {
+        margin: 50px 0 20px;
+    }
+
+    #trusted-text h3 {
+        font-size: 30px;
+    }
+
+    #boxes {
+        margin: 20px 10px;
+    }
+
+    #box-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #box-1,
+    #box-2,
+    #box-3 {
+        padding: 15px;
+    }
+
+    .box-down {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .box-name {
+        padding: 5px 10px;
+    }
+
+    #trusted-map {
+        position: static;
+        margin-top: 20px;
+    }
+
+    #location-container {
+        margin: 2rem;
+    }
+
+    #Bengalore, #Hyderabad {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .location-img img {
+        width: 100%;
+    }
+
+    .b-city, .h-city {
+        padding: 2rem;
+    }
+
+    #Q-A {
+        padding: 2rem 1rem;
+    }
+
+    .accordion {
+        padding: 2rem 1rem;
+    }
+
+    #lets-connect {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .lets-connect {
+        padding: 2rem;
+    }
+
+    .lets-img {
+        margin: 0;
+    }
+
+    .lets-img img {
+        height: auto;
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+        margin: 2rem;
+    }
+
+    #footer-1 p {
+        font-size: 10px;
+    }
+
+    .footer-img {
+        right: 10px;
+        top: 100%;
+    }
+
+    .modal-dialog {
+        width: 90%;
+        margin: 0 auto;
+    }
+} */
