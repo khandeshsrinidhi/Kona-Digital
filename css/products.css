@@ -1,0 +1,332 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow:hidden;
+    font-family: Arial, Helvetica, sans-serif
+}
+#navbar{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap:5rem;
+    padding: 0px;
+    box-shadow: 0px 0px 0.5px 0px;
+}
+#navbar img{
+   width: 100%;
+    padding-left: 160px;
+}
+#navbar-types{
+    display: flex;
+    gap:3rem;
+    padding: 30px 60px 0px;
+}
+#navbar-types li{
+    list-style-type: none;
+}
+#navbar-types li:hover{
+    color:#6f42c1;;
+    cursor: pointer;
+}
+.dropdown :hover{
+    color:#6f42c1;
+}
+#navbar-types button{
+    color: white;
+    background-color: #6F42C1;
+}
+.nav-resources{
+    color: black;
+ }
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    background-color: transparent;
+}
+.btn {
+    background: linear-gradient(90deg, #4E3BBF, #A928D8);
+    display: inline-block;
+    color: #fff;
+    border: none;
+    padding: 10px 24px !important;
+    border-radius: 8px;
+}
+
+#button{
+    padding-bottom: 50px;
+}
+
+#productsbanner{
+    
+    padding: 30px 0;
+    position: relative;
+    background-image: url("https://kona-digital.com/images/productbanner.jpg");
+    
+    background-size: contain;
+}
+
+.productsbanner{
+    display: flex;
+    gap: 6rem;
+    padding-top: 50px;
+    
+}
+
+#ask-for-demo {
+    background: linear-gradient(90deg, #4e3bbf, #a928d8);
+    color: #fff;
+}
+.empower{
+    padding-left: 180px;
+}
+.empower h1{
+    color: rgb(42,45,97);
+    padding-bottom: 20px;
+}
+.empower p{
+    padding-bottom: 20px;
+}
+.empower-img img{
+    width: 35rem;
+    height: 25rem
+}
+.empower-img{
+    padding-top: 47px;
+}
+.CRM{
+    text-align: center;
+    padding: 7rem 15rem;
+}
+.CRM-tittle{
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+    font-size: 50px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0px 8rem;
+}
+.CRM p{
+    color: rgb(0,12,96);
+    padding-top: 15px;
+}
+.capture-row{
+    display: flex;
+    gap: 6rem;
+    /* flex-wrap: wrap; */
+    padding: 0px 5rem;
+}
+.capture-leads{
+    padding: 0px 50px;
+    text-align: center;
+}
+
+
+
+
+
+.insights{
+    display: inline-block;
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.99%, #6BCD94 100%);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
+#AICopy{
+    padding: 20rem 6rem;
+}
+.AICopy{
+    display: flex;
+    gap: 5rem
+}
+#insights{
+    padding: 60px 0px 0px 4rem;
+}
+#insights h3{
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+    font-size: 50px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#insights p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.tickmark{
+    padding: 10px 0 0;
+}
+.tickmark i{
+    padding-right: 5px;
+    color: #8869e9;
+}
+
+#Q-A{
+    padding-top: 5rem;
+ }
+ 
+ .Q-A{
+    text-align: center;
+ }
+ .Q-A h1{
+    color: #000c60;
+    font-weight: 600;
+    font-size: 40px;
+ }
+ 
+ .accordion-header button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0px;
+ }
+ .accordion-button:focus,
+ .accordion-button:not(.collapsed) {
+    color: rgb(118, 51, 202);
+    background-color: transparent;
+    box-shadow: none;
+ }
+ .accordion-item{
+    background-color: none;
+ }
+ .accordion {
+    padding: 70px 220px;
+ }
+
+#Connect{
+    background: linear-gradient(1deg, #e4edf5, #fff);
+ }
+ 
+ #lets-connect {
+    display: flex;
+    margin: 0px 80px 0px -82px;
+ 
+ }
+ .lets-connect{
+    text-align: center;
+    padding: 7rem 12.8rem;
+ }
+ .lets-connect h1{
+    
+    /* -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent; */
+     color: linear-gradient(90deg, #5938c3, #a02ad6);
+    font-size: 40px;
+    font-weight: 700;
+ }
+ .lets-connect p{
+    font-size: 16px;
+     font-weight: 480;
+     padding-top: 20px;
+     padding-bottom: 15px;
+ }
+ .lets-img{
+    margin-left: -10rem;
+ }
+ .lets-img img{
+    height: 27rem;
+ }
+ .lets-connect button{
+    background: linear-gradient(90deg, #4e3bbf, #a928d8);
+     display: inline-block;
+     color: #fff;
+     border: none;
+     padding: 10px 24px !important;
+     border-radius: 8px;
+ }
+ .footer{
+    display: flex;
+    gap: 5rem;
+    
+ }
+  #footer{
+    margin: 6rem 0rem 2rem 9rem; ;
+ } 
+ #footer-1{
+    margin-left: 3rem;
+ }
+ #footer-1 img{
+    max-height: 40px;
+ }
+ #footer-1 p{
+    font-size: 12px;
+    padding-top: 20px;
+ }
+ /* #footer-2{
+    margin-left: 3rem ;
+ } */
+ #footer-4 ul, #footer-3 ul, #footer-2 ul{
+    list-style-type: none;
+             padding: 0;
+             margin: 0;
+ 
+ }
+ #footer-2 a, #footer-3 a, #footer-4 a{
+    color: black;
+ }
+ #footer-2 h4, #footer-4 h4, #footer-3 h4, #footer-5 h4{
+    color: rgb(0,12,96);
+    font-size: 17px;
+ }
+ .footer-img{
+    position: absolute;
+    right: 40px;
+    top: 244rem;
+    width: 12rem;
+ }
+ .footer a{
+    text-decoration: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-header{
+    background-image: linear-gradient(to right, #ff9b71 0%, #5a39c2 60%, #9e2ad5 100%);
+    
+     border: 0;
+     color: white;
+ }
+ .modal-title {
+    margin-left: 1.2rem;
+    font-size: 25px;
+ }
+ .phone{
+    display: flex;
+ }
+ .btn-secondary{
+    width: 100%;
+ }
+ .modal-dialog{
+    top: 60px;
+    width: 400px;
+ }
+ .name{
+    padding-bottom: 20px;
+ }
+ .email{
+    padding-top: 20px;
+    padding-bottom: 10px;
+ }
