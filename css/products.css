@@ -237,96 +237,194 @@ a {
      padding: 10px 24px !important;
      border-radius: 8px;
  }
- .footer{
-    display: flex;
-    gap: 5rem;
-    
- }
-  #footer{
-    margin: 6rem 0rem 2rem 9rem; ;
- } 
- #footer-1{
-    margin-left: 3rem;
- }
- #footer-1 img{
-    max-height: 40px;
- }
- #footer-1 p{
-    font-size: 12px;
-    padding-top: 20px;
- }
- /* #footer-2{
-    margin-left: 3rem ;
- } */
- #footer-4 ul, #footer-3 ul, #footer-2 ul{
-    list-style-type: none;
-             padding: 0;
-             margin: 0;
  
- }
- #footer-2 a, #footer-3 a, #footer-4 a{
-    color: black;
- }
- #footer-2 h4, #footer-4 h4, #footer-3 h4, #footer-5 h4{
-    color: rgb(0,12,96);
-    font-size: 17px;
- }
- .footer-img{
-    position: absolute;
-    right: 40px;
-    top: 244rem;
-    width: 12rem;
- }
- .footer a{
-    text-decoration: none;
- }
+ 
 
 
 
 
+ /* ...............media-queries.................... */
 
+ @media (max-width: 600px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
 
+    #navbar img {
+        padding-left: 0;
+        width: 80%;
+        max-width: 200px;
+    }
 
+    #navbar-types {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
 
+    #navbar-types li {
+        margin-bottom: 1rem;
+    }
 
+    #button {
+        padding-bottom: 20px;
+    }
 
+    .productsbanner {
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 20px;
+    }
 
+    .empower {
+        padding-left: 0;
+        text-align: center;
+    }
 
+    .empower h1 {
+        font-size: 24px;
+    }
 
+    .empower p {
+        font-size: 14px;
+    }
 
+    .empower-img img {
+        width: 100%;
+        height: auto;
+    }
 
+    .empower-img {
+        padding-top: 20px;
+    }
+    .CRM {
+        padding: 3rem 1.5rem;
+    }
 
+    .CRM-tittle {
+        font-size: 32px;
+        padding: 0px 2rem;
+    }
 
+    .CRM p {
+        font-size: 14px;
+    }
+    .capture-row {
+        flex-direction: column;
+        gap: 3rem;
+        padding: 0 1rem;
+    }
 
+    .capture-leads {
+        padding: 0px 20px;
+    }
 
+    .AICopy {
+        flex-direction: column;
+        gap: 3rem;
+        padding: 5rem 1rem;
+    }
 
+    #insights {
+        padding: 40px 0 0 2rem;
+    }
 
+    #insights h3 {
+        font-size: 32px;
+        padding: 0 1rem;
+    }
 
+    .tickmark {
+        padding-top: 5px;
+    }
+    #Q-A {
+        padding-top: 3rem;
+    }
 
-.modal-header{
-    background-image: linear-gradient(to right, #ff9b71 0%, #5a39c2 60%, #9e2ad5 100%);
+    .Q-A h1 {
+        font-size: 32px;
+    }
+
+    .accordion {
+        padding: 40px 20px;
+    }
+
+    #lets-connect {
+        flex-direction: column;
+        margin: 0;
+        padding: 4rem 1rem;
+    }
+
+    .lets-connect {
+        padding: 4rem 1rem;
+    }
+
+    .lets-connect h1 {
+        font-size: 28px;
+    }
+
+    .lets-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .lets-img img {
+        height: auto;
+        width: 100%;
+    }
+    .footer {
+        margin: 3rem 0rem 2rem;
+        padding: 0 1rem; /* Add padding to space out items */
+    }
+
+    .footer-img {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%; /* Adjust width to fill the container */
+        margin-top: 2rem; /* Add margin for spacing */
+    }
+    .modal-header {
+        background-image: linear-gradient(to right, #ff9b71 0%, #5a39c2 60%, #9e2ad5 100%);
+        border: 0;
+        color: white;
+    }
     
-     border: 0;
-     color: white;
- }
- .modal-title {
-    margin-left: 1.2rem;
-    font-size: 25px;
- }
- .phone{
-    display: flex;
- }
- .btn-secondary{
-    width: 100%;
- }
- .modal-dialog{
-    top: 60px;
-    width: 400px;
- }
- .name{
-    padding-bottom: 20px;
- }
- .email{
-    padding-top: 20px;
-    padding-bottom: 10px;
- }
+    .modal-title {
+        margin-left: 1.2rem;
+        font-size: 25px;
+    }
+    
+    .phone {
+        display: flex;
+    }
+    
+    .btn-secondary {
+        width: 100%;
+    }
+    
+    .modal-dialog {
+        top: 60px;
+        width: 400px;
+    }
+    
+    .name {
+        padding-bottom: 20px;
+    }
+    
+    .email {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+}
+
+
+
