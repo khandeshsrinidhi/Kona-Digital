@@ -80,7 +80,9 @@ a {
 }
 .virtual-school{
     display: flex;
+    gap: 2rem;
 }
+
 .virtual-school h6{
     background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #EAEDFB 100%);
     padding: 10px 20px;
@@ -228,10 +230,14 @@ a {
  .accordion {
     padding: 70px 220px;
  }
+ #Connect{
+    background: linear-gradient(1deg, #e4edf5, #fff);
+ }
 
 #lets-connect {
     display: flex;
     margin: 0px 80px 0px -82px;
+    
  
  }
  .lets-connect{
@@ -240,9 +246,7 @@ a {
  }
  .lets-connect h1{
     
-    -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     color: linear-gradient(90deg, #5938c3, #a02ad6);
+    color: rgb(126,48,205);
     font-size: 40px;
     font-weight: 700;
  }
@@ -302,9 +306,9 @@ a {
  }
  .footer-img{
     position: absolute;
-    right: 44px;
-    top: 213rem;
-    width: 12rem;
+    right: 65px;
+    top: 246rem;
+    width: 10rem;
  }
 
  .footer a{

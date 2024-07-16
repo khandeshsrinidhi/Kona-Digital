@@ -213,7 +213,7 @@ a {
     
     /* -webkit-background-clip: text;
      -webkit-text-fill-color: transparent; */
-     color: linear-gradient(90deg, #5938c3, #a02ad6);
+     color: rgb(126,48,205);
     font-size: 40px;
     font-weight: 700;
  }
