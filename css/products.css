@@ -123,10 +123,6 @@ a {
     text-align: center;
 }
 
-
-
-
-
 .insights{
     display: inline-block;
     background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.99%, #6BCD94 100%);
@@ -141,6 +137,9 @@ a {
 .AICopy{
     display: flex;
     gap: 5rem
+}
+#aicopy-img img{
+    width: 70%;
 }
 #insights{
     padding: 60px 0px 0px 4rem;
@@ -326,23 +325,30 @@ a {
         padding: 0px 20px;
     }
 
-    .AICopy {
+    #AICopy {
+        padding: 10rem 2rem;
         flex-direction: column;
-        gap: 3rem;
-        padding: 5rem 1rem;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    #aicopy-img img {
+        width: 100%;
     }
 
     #insights {
-        padding: 40px 0 0 2rem;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .insights {
+        padding: 8px 16px;
+        font-size: 14px;
+        border-radius: 20px;
     }
 
     #insights h3 {
-        font-size: 32px;
-        padding: 0 1rem;
-    }
-
-    .tickmark {
-        padding-top: 5px;
+        font-size: 36px;
     }
     #Q-A {
         padding-top: 3rem;
