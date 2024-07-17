@@ -317,14 +317,6 @@ a {
 
 
 
-
-
-
-
-
-
-
-
 .modal-header{
    background-image: linear-gradient(to right, #ff9b71 0%, #5a39c2 60%, #9e2ad5 100%);
    
@@ -353,6 +345,213 @@ a {
    padding-bottom: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    #navbar {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 10px;
+    }
+    #navbar img {
+        padding-left: 0;
+    }
+    #navbar-types {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 10px 0;
+    }
+    #navbar-types li {
+        text-align: center;
+    }
+    .btn {
+        width: 100%;
+        padding: 12px 0;
+    }
+    #virtual-school {
+        padding: 4rem 2rem;
+    }
+    .virtual-school {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .virtual-school h6 {
+        padding: 5px 10px;
+    }
+    .virtual-school h3 {
+        font-size: 30px;
+        margin: 10px 0 5px;
+    }
+    .blur5 {
+        top: 5rem;
+        left: 2rem;
+    }
+    #monitor-user {
+        margin: 10px 2rem;
+    }
+    .monitor-user {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .monitor-user-2 {
+        padding-top: 2rem;
+    }
+    .monitor-user-2 h6 {
+        padding: 5px 10px;
+    }
+    .monitor-user-2 h3 {
+        font-size: 30px;
+        margin: 10px 0 5px;
+    }
+    .tickmark {
+        padding: 5px 0 0;
+    }
+    .tickmark i {
+        padding-right: 3px;
+    }
+    .what-can {
+        padding: 3rem 2rem;
+        background-size: cover; /* Adjust background size for smaller screens */
+    }
+    .what-can h2 {
+        font-size: 30px;
+        margin: 10px 0 5px;
+    }
+    .whaticons {
+        flex-direction: column;
+        padding: 2rem 0 0;
+        gap: 2rem;
+    }
+    .whaticons li {
+        width: 100%;
+    }
+    #limited-time {
+        padding: 5rem 0px;
+    }
+    .limited-time h6 {
+        padding: 5px 10px;
+    }
+    .limited-time h3 {
+        font-size: 30px;
+        margin: 10px 0 5px;
+    }
+    .google {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .google li {
+        width: 100%;
+    }
+    .alternate {
+        padding-top: 75px;
+    }
+    .Q-A h1 {
+        font-size: 28px;
+    }
+
+    .accordion-header button {
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+
+    .accordion {
+        padding: 20px;
+    }
+
+    #lets-connect {
+        flex-direction: column;
+        margin: 0;
+        padding: 2rem 1rem;
+    }
+
+    .lets-connect {
+        padding: 2rem 1rem;
+    }
+
+    .lets-connect h1 {
+        font-size: 28px;
+    }
+
+    .lets-connect p {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .lets-img {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    .lets-img img {
+        height: auto;
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    #footer {
+        margin: 2rem 1rem;
+    }
+
+    #footer-1 {
+        margin-left: 0;
+    }
+
+    #footer-1 p {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    #footer-2 h4,
+    #footer-4 h4,
+    #footer-3 h4,
+    #footer-5 h4 {
+        font-size: 14px;
+    }
+
+    .footer-img {
+        position: static;
+        width: 6rem;
+        margin: 1rem auto;
+    }
+
+    .modal-dialog {
+        width: 90%;
+        top: 20px;
+    }
+
+    .modal-title {
+        font-size: 20px;
+        margin-left: 0.5rem;
+    }
+
+    .phone {
+        flex-direction: column;
+    }
+
+    .name,
+    .email {
+        padding: 10px 0;
+    }
+}
 
 
 
