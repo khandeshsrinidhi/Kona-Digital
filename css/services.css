@@ -301,3 +301,186 @@ a {
     padding-top: 20px;
     padding-bottom: 10px;
  }
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 600px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    #navbar {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 10px;
+    }
+    #navbar img {
+        padding-left: 0;
+    }
+    #navbar-types {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 10px 0;
+    }
+    #navbar-types li {
+        text-align: center;
+    }
+    .btn {
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    #need-help {
+        padding: 4px 2rem;
+    }
+    .need-help {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .need-help-1 {
+        padding-top: 2rem;
+        margin-left: 0;
+    }
+    .need-help-1 h1 {
+        font-size: 30px;
+        margin: 10px 0 5px;
+    }
+    .need-help-1 p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #ask-for-demo {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+    }
+    .services h2 {
+        font-size: 30px;
+        margin: 10px 0 5px;
+    }
+    .services img {
+        margin-top: -30px;
+        width: 100%;
+    }
+    #rows {
+        padding: 5px 20px;
+    }
+    .rows {
+        flex-direction: column;
+        padding: 1.5rem 2rem;
+        gap: 1.5rem;
+    }
+    .row-matter, .row-img {
+        width: 100%;
+    }
+    .row-img img {
+        width: 100%;
+    }
+    #row2 {
+        margin: 0px;
+    }
+    #row4 img {
+        width: 100%;
+    }
+    .Q-A h1 {
+        font-size: 28px;
+    }
+
+    .accordion-header button {
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+
+    .accordion {
+        padding: 20px;
+    }
+
+    #lets-connect {
+        flex-direction: column;
+        margin: 0;
+        padding: 2rem 1rem;
+    }
+
+    .lets-connect {
+        padding: 2rem 1rem;
+    }
+
+    .lets-connect h1 {
+        font-size: 28px;
+    }
+
+    .lets-connect p {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .lets-img {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    .lets-img img {
+        height: auto;
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    #footer {
+        margin: 2rem 1rem;
+    }
+
+    #footer-1 {
+        margin-left: 0;
+    }
+
+    #footer-1 p {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    #footer-2 h4,
+    #footer-4 h4,
+    #footer-3 h4,
+    #footer-5 h4 {
+        font-size: 14px;
+    }
+
+    .footer-img {
+        position: static;
+        width: 6rem;
+        margin: 1rem auto;
+    }
+
+    .modal-dialog {
+        width: 90%;
+        top: 20px;
+    }
+
+    .modal-title {
+        font-size: 20px;
+        margin-left: 0.5rem;
+    }
+
+    .phone {
+        flex-direction: column;
+    }
+
+    .name,
+    .email {
+        padding: 10px 0;
+    }
+}
